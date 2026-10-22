@@ -121,6 +121,7 @@ TESTS = [
     "many_workspace_deps",  # Got count 45796 in 20 rounds
     "multiple_versions_for_dependency",
     "multiple_versions_of_optional_dep",
+    "num_enum_warning",
     "non_optional_dep_feature",
     "optional_build_deps",
     "platform_dep_features",
