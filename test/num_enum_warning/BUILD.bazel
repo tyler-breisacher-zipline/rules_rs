@@ -1,0 +1,9 @@
+load("@rules_rs//rs:rust_binary.bzl", "rust_binary")
+
+rust_binary(
+    name = "num_enum_warning",
+    srcs = ["src/main.rs"],
+    edition = "2024",
+    visibility = ["//visibility:public"],
+    deps = ["@num_enum_warning//:num_enum"],
+)
